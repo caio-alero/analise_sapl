@@ -5,7 +5,7 @@
 library(dplyr)
 library(lubridate)
 
-#----------- leitura dos dados -------------------
+#----------- leitura dos dadosss -------------------
 sapl_data <- read.table('https://raw.githubusercontent.com/caio-alero/analise_sapl/main/dados_sapl', header = TRUE, sep = '\t', encoding = 'UTF-8')
 
 sapl_data <- sapl_data %>% 
